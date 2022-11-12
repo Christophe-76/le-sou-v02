@@ -315,6 +315,9 @@ a:focus {
   color: #fdd31d;
 }
 
+.col-md-3 h5{
+  color:blue;
+}
 .client_section .row {
   align-items: center;
   padding: 75px 0;
