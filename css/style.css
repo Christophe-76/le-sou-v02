@@ -284,13 +284,27 @@ a:focus {
   background-color: #6ebca8;
   color: #fefeff;
 }
+#equipe {
+  width: 350px;
+  -moz-transition: all 1s ease; /* Firefox */
+-webkit-transition: all 1s ease; /*Chrome*/
+
+}
+
+#equipe:hover {
+  /* L'image est grossie de 125% */
+
+-moz-transform: scale(1.35); /* Firefox */
+-webkit-transform: scale(1.35);/*Chrome*/
+}
+
 
 /* end why section */
 
 /* determine section */
 
 
-.determine_section a {
+.agenda-btn-home a {
   background-color: #fdd31d;
   color: #fefeff;
 }
